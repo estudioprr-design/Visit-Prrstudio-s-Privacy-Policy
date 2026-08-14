@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidad — PRR Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --brr-brown: #3A2E26;
+    --brr-brown-soft: #5A4A3C;
+    --brr-cream: #F6F1EA;
+    --brr-cream-deep: #EDE4D8;
+    --brr-line: #D9CDBE;
+    --brr-accent: #B08A5A;
+  }
+
+  *{ box-sizing: border-box; }
+
+  html{ scroll-behavior: smooth; }
+
+  body{
+    margin:0;
+    background: var(--brr-cream);
+    color: var(--brr-brown);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wordmark{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  header{
+    background: var(--brr-brown);
+    color: var(--brr-cream);
+    padding: 56px 24px 48px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header::after{
+    content: "";
+    position: absolute;
+    right: -60px;
+    bottom: -60px;
+    width: 220px;
+    height: 220px;
+    border: 1px solid rgba(246,241,234,0.15);
+    border-radius: 50%;
+  }
+
+  .header-inner{
+    max-width: 760px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .brand-row{
+    display:flex;
+    align-items:baseline;
+    gap: 10px;
+    margin-bottom: 22px;
+  }
+
+  .brand-row .prr{
+    font-size: 2.1rem;
+    letter-spacing: 0.06em;
+  }
+
+  .brand-row .studio{
+    font-size: 0.78rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--brr-accent);
+    font-weight: 600;
+  }
+
+  h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.7rem, 3.6vw, 2.3rem);
+    margin: 0 0 12px;
+    letter-spacing: 0.01em;
+  }
+
+  header p.lead{
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--brr-cream-deep);
+    max-width: 46ch;
+  }
+
+  main{
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+
+  .updated{
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--brr-accent);
+    font-weight: 600;
+    margin-bottom: 40px;
+    display: block;
+  }
+
+  section{
+    margin-bottom: 44px;
+  }
+
+  section h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin: 0 0 6px;
+    color: var(--brr-brown);
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  section h2 .num{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: var(--brr-accent);
+    letter-spacing: 0.05em;
+  }
+
+  section hr{
+    border: none;
+    border-top: 1px solid var(--brr-line);
+    margin: 14px 0 18px;
+  }
+
+  section p, section li{
+    font-size: 0.96rem;
+    color: var(--brr-brown-soft);
+  }
+
+  section ul{
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+
+  section li{
+    margin-bottom: 8px;
+  }
+
+  strong{
+    color: var(--brr-brown);
+    font-weight: 600;
+  }
+
+  .contact-card{
+    background: var(--brr-cream-deep);
+    border: 1px solid var(--brr-line);
+    border-radius: 4px;
+    padding: 28px 26px;
+    margin-top: 8px;
+  }
+
+  .contact-card p{
+    margin: 6px 0;
+  }
+
+  .contact-card a{
+    color: var(--brr-brown);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid var(--brr-accent);
+  }
+
+  .contact-card a:hover{
+    color: var(--brr-accent);
+  }
+
+  footer{
+    text-align: center;
+    padding: 32px 24px 48px;
+    font-size: 0.78rem;
+    color: var(--brr-brown-soft);
+    letter-spacing: 0.04em;
+  }
+
+  footer .wordmark{
+    font-size: 1rem;
+    color: var(--brr-brown);
+  }
+
+  @media (max-width: 560px){
+    header{ padding: 44px 20px 40px; }
+    main{ padding: 44px 20px 72px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand-row">
+      <span class="prr wordmark">PRR</span>
+      <span class="studio">Studio</span>
+    </div>
+    <h1>Política de Privacidad</h1>
+    <p class="lead">Cómo PRR Studio recolecta, usa y protege la información de quienes visitan nuestros sitios y campañas.</p>
+  </div>
+</header>
+
+<main>
+  <span class="updated">Última actualización: agosto de 2026</span>
+
+  <section>
+    <h2><span class="num">01</span>Quiénes somos</h2>
+    <hr>
+    <p>PRR Studio es un estudio de publicidad y gestión de redes sociales con sede en Corrientes, Argentina. Esta política aplica a nuestras campañas publicitarias en Meta (Facebook e Instagram).</p>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span>Qué información se recolecta</h2>
+    <hr>
+    <p>Cuando ves o interactuás con nuestros anuncios, Meta recolecta datos básicos a través de sus propias herramientas (como el Píxel de Meta) para medir el rendimiento de la campaña. No pedimos ni guardamos información personal más allá de lo que vos mismo nos compartas si nos escribís por mensaje directo o email.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span>Qué NO hacemos con tus datos</h2>
+    <hr>
+    <p>No vendemos, compartimos ni cedemos tu información a terceros. No armamos bases de datos con la información de quienes ven nuestros anuncios ni de nuestros clientes.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span>Tus derechos</h2>
+    <hr>
+    <p>Si en algún momento nos escribiste y querés que borremos esa conversación o la información que nos diste, simplemente pedínoslo por los mismos canales de contacto.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span>Contacto</h2>
+    <hr>
+    <div class="contact-card">
+      <p>Ante cualquier duda sobre esta política, escribinos a:</p>
+      <p>Email: <a href="mailto:estudioprr@gmail.com">estudioprr@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/prr.studio" target="_blank" rel="noopener">@prr.studio</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p class="wordmark">PRR Studio</p>
+  <p>Corrientes, Argentina</p>
+</footer>
+
+</body>
+</html>
